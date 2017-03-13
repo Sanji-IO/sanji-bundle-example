@@ -1,0 +1,22 @@
+{
+  "name": "example",
+  "version": "0.0.1",
+  "author": "Your Name Here",
+  "email": "example@com.com",
+  "description": "Description of this bundle",
+  "license": "GPL",
+  "main": "index.py",
+  "argument": "",
+  "priority": 99,
+  "hook": [],
+  "dependencies": {},
+  "repository": "",
+  "role": "model",
+  "ttl": 60,
+  "resources": [
+    {
+      "methods": ["get", "put"],
+      "resource": "/example"
+    }
+  ]
+}
